@@ -9,7 +9,7 @@
   <style>
     body {
       background-color: #060606;
-      color: #fff;
+      color: #f3efef;
     }
     .hero {
       background-image: url('https://example.com/bg-image.jpg');
@@ -35,9 +35,23 @@
       margin-bottom: 30px;
     }
     .section {
+        
       padding: 80px 0;
       
     }
+    .section2
+    {
+        color: #060606;
+        padding: 80px 0;
+        background-color: #060606;
+        
+      }
+    .bg-light py-5{
+        background-color: #060606;
+        color: #060606;
+        padding: 80px 0;
+        
+      }
     .section-title {
       font-size: 2.5rem;
       font-weight: bold;
@@ -46,7 +60,7 @@
       
     }
     .card {
-      background-color: #0e1cb9;
+      background-color: #de0c0c;
       border: none;
       transition: transform 0.3s ease;
     }
@@ -81,11 +95,11 @@
       border-radius: 10px;
     }
     .category-front {
-      background-color: #3608b5;
+      background-color: #df170c;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: #eaeaee;
     }
     .category-back {
       background-color: #2c2e4c;
@@ -109,7 +123,14 @@
     .category-description {
       font-size: 1.2rem;
     }
-  
+    .parallax {
+            background-image: url('IMG.vl/VIDEOGAMES.jpg');
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     
   </style>
 </head>
@@ -124,7 +145,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Tipos AI</a>
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"></a>
@@ -148,20 +169,24 @@
     </header>
 
     <section class="section">
-        <section style="background: url('IMG/2490232.png') no-repeat center center fixed; background-size: cover; height: 400px;"></section>
+        <section style="background: url('IMG/Fondo2.0.jpg') no-repeat center center fixed; background-size: cover; height: 400px;"></section>
         <div class="container">
           <h1 class="section-title">Parte de Consolas</h1>
           <p class="lead text-center">La Inteligencia Artificial (IA) es un campo de la informática que se enfoca en la creación de sistemas y tecnologías capaces de realizar tareas que normalmente requieren inteligencia humana. Estos sistemas buscan simular y replicar procesos de pensamiento humano, como el razonamiento, el aprendizaje, la percepción y la toma de decisiones. El objetivo final es crear máquinas y sistemas que puedan funcionar de manera autónoma y resolver problemas de manera efectiva.</p>
         </div>
       </section>
 
+
+
+<section   class="section2"> style="background: url('IMG/2490232.png') no-repeat center center fixed; background-size: cover; height: 400px;">
+    
       <div class="bg-light py-5" id="juegos">
         <div class="container">
             <h2 class="text-center mb-4">Juegos recomendados</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="IMG.vl/CORDOBA.jpg" alt="Juego 1" class="card-img-top">
+                        <img src="IMG/mandoxx.jpeg" alt="Juego 1" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Red Dead Redemption 2</h5>
                             <p class="card-text">Es un videojuego de acción y aventura que sigue la historia de Arthur
@@ -175,7 +200,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="IMG.vl/VALENCIA32.jpg" alt="Juego 2" class="card-img-top">
+                        <img src="IMG/Nintendo.jpg" alt="Juego 2" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Super smash bros ultimate</h5>
                             <p class="card-text">Es un juego de lucha crossover desarrollado por Nintendo. Reúne a
@@ -189,7 +214,20 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="IMG.vl/CORDOBA2.jpg" alt="Juego 3" class="card-img-top">
+                        <img src="IMG/xbox.jpg" alt="Juego 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Metal Gear Solid V: The Phantom Pain</h5>
+                            <p class="card-text">Es un juego de acción y sigilo en mundo abierto donde los jugadores
+                                controlan a Venom Snake en su búsqueda de venganza. Con una jugabilidad táctica y una
+                                narrativa compleja, destaca por su diseño innovador y atención al detalle.</p>
+                            <a href="https://store.steampowered.com/agecheck/app/287700/" class="btn btn-primary">Jugar
+                                ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMG/PLAY.jpg" alt="Juego 3" class="card-img-top">
                         <div class="card-body">
                             <h5 class="card-title">Metal Gear Solid V: The Phantom Pain</h5>
                             <p class="card-text">Es un juego de acción y sigilo en mundo abierto donde los jugadores
@@ -203,3 +241,4 @@
             </div>
         </div>
     </div>
+</section>
