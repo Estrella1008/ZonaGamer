@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consolas</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #060606;
+      color: #f3efef;
+    }
+    .hero {
+      background-image: url('https://example.com/bg-image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .hero-content {
+      text-align: center;
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+    }
+    .hero-content h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .section {
+        
+      padding: 80px 0;
+      
+    }
+    .section2
+    {
+        color: #060606;
+        padding: 80px 0;
+        background-color: #060606;
+        
+      }
+    .bg-light py-5{
+        background-color: #060606;
+        color: #060606;
+        padding: 80px 0;
+        
+      }
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: center;
+      
+    }
+    .card {
+      background-color: #de0c0c;
+      border: none;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      background-color: #2905b5;
+      transform: translateY(-10px);
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .category-container {
+      perspective: 1000px;
+    }
+    .category-card {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .category-card:hover {
+      transform: rotateY(180deg);
+    }
+    .category-front, .category-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+    }
+    .category-front {
+      background-color: #1a0cdf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #eaeaee;
+    }
+    .category-back {
+      background-color: #2c2e4c;
+      color: #fff;
+      transform: rotateY(180deg);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .category-icon {
+      font-size: 5rem;
+      margin-bottom: 20px;
+    }
+    .category-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .category-description {
+      font-size: 1.2rem;
+    }
+    .parallax {
+            background-image: url('IMG.vl/VIDEOGAMES.jpg');
+            height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+  </style>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/AI/Home.html#">ZonaGamer</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/AI/catehorias.html"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Sv.html#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section">
+        <section style="background: url('IMG/2490232.png') no-repeat center center fixed; background-size: cover; height: 400px;"></section>
+        <div class="container">
+          <h1 class="section-title">Parte de Consolas</h1>
+          <p class="lead text-center">las consolas de videojuegos también fomentan la socialización y la interacción entre los jugadores, ya sea en línea o en persona a través de multijugador local. Además, proporcionan una plataforma estable y optimizada para los desarrolladores de juegos, lo que permite la creación de experiencias de juego más fluidas y visualmente impresionantes. También son una forma accesible para que personas de todas las edades y habilidades disfruten del entretenimiento interactivo, contribuyendo así a la diversión y la relajación en la vida cotidiana.</p>
+        </div>
+      </section>
+
+
+
+<section   class="section2"> style="background: url('IMG/2490232.png') no-repeat center center fixed; background-size: cover; height: 400px;">
+    
+      <div class="bg-light py-5" id="juegos">
+        <div class="container">
+            <h2 class="text-center mb-4">Puedes comprar estas consolas </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMG/xbox.jpg" alt="Juego 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Xbox</h5>
+                            <p class="card-text">Es un videojuego de acción y aventura que sigue la historia de Arthur
+                                Morgan, un forajido en el salvaje oeste. Se une a la banda Van der Linde en su lucha por
+                                sobrevivir en un mundo cambiante. Con una narrativa profunda y un vasto mundo abierto,
+                                el juego ofrece una experiencia inmersiva del Viejo Oeste</p>
+                            <a href="https://www.xbox.com/es-CO/consoles"
+                                class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMG/Nintendo.jpg" alt="Juego 2" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nintendo</h5>
+                            <p class="card-text">Es un juego de lucha crossover desarrollado por Nintendo. Reúne a
+                                personajes icónicos de diversas franquicias de videojuegos, como Mario, Link, Pikachu y
+                                muchos más, en batallas multijugador frenéticas. Con modos de juego variados y un
+                                extenso elenco de luchadores, "Ultimate" ofrece una experiencia divertida y competitiva
+                                tanto para jugadores casuales como para aficionados a los juegos de lucha.</p>
+                            <a href="https://www.smashbros.com/es_ES/" class="btn btn-primary">Jugar ahora</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMG/PLAY.jpg" alt="Juego 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Metal Gear Solid V: The Phantom Pain</h5>
+                            <p class="card-text">Es un juego de acción y sigilo en mundo abierto donde los jugadores
+                                controlan a Venom Snake en su búsqueda de venganza. Con una jugabilidad táctica y una
+                                narrativa compleja, destaca por su diseño innovador y atención al detalle.</p>
+                            <a href="https://store.steampowered.com/agecheck/app/287700/" class="btn btn-primary">Jugar
+                                ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
